@@ -32,27 +32,32 @@ All necessary files to run this project are available in this repository.
 **Analysis**<br>
 **Trend Aktivitas Total Penjualan Bulanan Setelah Terpotong Promo**<br>
 <p align="center">
-    <img width="561" alt="ERD Screenshot" src="https://raw.githubusercontent.com/Rudiyanti/Omnichannel-Jubelio-Promo-Effectiveness-Review/main/sales_after_promo.png"><br>
-    Figure 1: Sales after promo
+    <img width="561" alt="sales after promo Screenshot" src="https://raw.githubusercontent.com/Rudiyanti/Omnichannel-Jubelio-Promo-Effectiveness-Review/main/sales_after_promo.png"><br>
+    Figure 1: Sales After Promo
 </p>
-Gambar 1. sales after promo
-------------------------
-Gambar 2. Chart
-Berdasarkan data yang diberikan, terlihat bahwa total penjualan bulanan setelah terpotong promo menunjukkan fluktuasi yang signifikan selama periode Juli hingga Desember 2022.
-Pada bulan Juli dan Agustus 2022, total penjualan setelah terpotong promo relatif stabil dengan jumlah sekitar 167-166 juta. Namun, pada bulan September terjadi penurunan yang signifikan, dengan total penjualan setelah terpotong promo sebesar 148 juta.
-Selanjutnya, pada bulan Oktober terjadi peningkatan yang cukup signifikan, dengan total penjualan setelah terpotong promo mencapai 193 juta. Namun, pada bulan November terjadi penurunan kembali, dengan total penjualan setelah terpotong promo sebesar 154 juta.
-Terakhir, pada bulan Desember terjadi peningkatan yang sangat signifikan, dengan total penjualan setelah terpotong promo mencapai 345 juta. Hal ini bisa jadi disebabkan oleh adanya event atau promo besar-besaran pada bulan Desember.
-Secara keseluruhan, trend aktivitas total penjualan bulanan setelah terpotong promo mengalami fluktuasi yang cukup signifikan selama periode Juli hingga Desember 2022. Namun, pada bulan Desember terjadi peningkatan yang sangat signifikan, yang mungkin bisa menjadi poin penting yang bisa dimanfaatkan untuk strategi pemasaran pada periode berikutnya.
 
-**Trend Perbandingan Bulanan Jumlah Rasio Penggunaan Promo dan yang Tidak Menggunakan Promo**
-------------------------------------
-Gambar 3. perbandingan rasio
------------------------------------
-Gambar 4. Chart
-Secara keseluruhan, dapat dilihat bahwa pada bulan-bulan awal (Juli, Agustus, dan September), tidak ada data yang tersedia mengenai jumlah penggunaan promo dan yang tidak menggunakan promo. Namun, pada bulan Oktober hingga Desember, terlihat bahwa penggunaan promo meningkat dibandingkan dengan yang tidak menggunakan promo. Terlebih lagi, pada bulan Desember, terlihat bahwa rasio penggunaan promo dan yang tidak menggunakan promo menjadi lebih seimbang dibandingkan dengan bulan-bulan sebelumnya. Hal ini menunjukkan adanya perubahan tren dalam penggunaan promo dari waktu ke waktu.
+<p align="center">
+    <img width="561" alt="chart sales after promo Screenshot" src="https://raw.githubusercontent.com/Rudiyanti/Omnichannel-Jubelio-Promo-Effectiveness-Review/main/chart_sales_after_promo.png"><br>
+    Figure 2: Chart
+</p>
+Based on the given data, it can be seen that the monthly total sales after discounts show significant fluctuations during the period of July to December 2022. In July and August 2022, the total sales after discounts were relatively stable, with a range of around 166-167 million. However, in September, there was a significant decrease, with total sales after discounts amounting to 148 million. In October, there was a significant increase, with total sales after discounts reaching 193 million. However, in November, there was a decrease again, with total sales after discounts amounting to 154 million. Finally, in December, there was a very significant increase, with total sales after discounts reaching 345 million. This could be due to a large-scale event or promotion in December. Overall, the trend of monthly total sales activity after discounts shows significant fluctuations during the period of July to December 2022. However, the significant increase in sales during December could be an important point to be utilized for marketing strategies in the next period.
 
-**Shipping Label**
-Sebelum membuat shipping label, saya membuat tabel baru dengan menggunakan fungsi "CREATE" di "pgAdmin4" dengan nama tabel "shipping_summary" yang berisi kolom shipping_date, seller_name, buyer_name,	buyer_address,	buyer_city,	buyer_zipcode, dan	kode_resi yang nantinya akan dibuat shipping label khusus untuk bulan December agar dapat memudahkan proses pengiriman barang, meningkatkan kualitas layanan dan pengalaman konsumen.
-------------------------------
-Gambar 5. shipping label
+**Trend Perbandingan Bulanan Jumlah Rasio Penggunaan Promo dan yang Tidak Menggunakan Promo**<br>
+<p align="center">
+    <img width="561" alt="ratio comparison Screenshot" src="https://raw.githubusercontent.com/Rudiyanti/Omnichannel-Jubelio-Promo-Effectiveness-Review/main/rasio_using_promo_and_non_promo.png"><br>
+    Figure 3: Ratio Comparison
+</p>
+
+<p align="center">
+    <img width="561" alt="chart ratio comparison Screenshot" src="https://raw.githubusercontent.com/Rudiyanti/Omnichannel-Jubelio-Promo-Effectiveness-Review/main/chart_rasio_using_promo_and_non_promo.png"><br>
+    Figure 4: Chart
+</p>
+Overall, it can be seen that in the early months (July, August, and September), no data is available regarding the number of users who used promo codes and those who did not. However, from October to December, it is observed that the usage of promo codes increased compared to those who did not use promo codes. Moreover, in December, it is evident that the ratio of users who used promo codes and those who did not became more balanced compared to the previous months. This indicates a change in the trend of promo code usage over time.
+
+**Shipping Label** <br>
+Before creating the shipping label, I created a new table using the "CREATE" function in "pgAdmin4" with the table name "shipping_summary" which contains columns such as shipping_date, seller_name, buyer_name, buyer_address, buyer_city, buyer_zipcode, and kode_resi. This table will be used to create a shipping label specifically for the month of December to facilitate the shipping process, improve the quality of service, and enhance the customer experience.
+<p align="center">
+    <img width="561" alt="shipping label Screenshot" src="https://raw.githubusercontent.com/Rudiyanti/Omnichannel-Jubelio-Promo-Effectiveness-Review/main/shipping_label.png"><br>
+    Figure 5: Shipping Label
+</p>
 
