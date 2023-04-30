@@ -41,7 +41,7 @@ All necessary files to run this project are available in this repository.
     Figure 2: Chart
 </p>
 Based on the given data, it can be seen that the monthly total sales after discounts show significant fluctuations during the period of July to December 2022. In July and August 2022, the total sales after discounts were relatively stable, with a range of around 166-167 million. However, in September, there was a significant decrease, with total sales after discounts amounting to 148 million. In October, there was a significant increase, with total sales after discounts reaching 193 million. However, in November, there was a decrease again, with total sales after discounts amounting to 154 million. Finally, in December, there was a very significant increase, with total sales after discounts reaching 345 million. This could be due to a large-scale event or promotion in December. Overall, the trend of monthly total sales activity after discounts shows significant fluctuations during the period of July to December 2022. However, the significant increase in sales during December could be an important point to be utilized for marketing strategies in the next period.
-
+</p>
 **Trend Perbandingan Bulanan Jumlah Rasio Penggunaan Promo dan yang Tidak Menggunakan Promo**<br>
 <p align="center">
     <img width="561" alt="ratio comparison Screenshot" src="https://raw.githubusercontent.com/Rudiyanti/Omnichannel-Jubelio-Promo-Effectiveness-Review/main/rasio_using_promo_and_non_promo.png"><br>
@@ -53,7 +53,7 @@ Based on the given data, it can be seen that the monthly total sales after disco
     Figure 4: Chart
 </p>
 Overall, it can be seen that in the early months (July, August, and September), no data is available regarding the number of users who used promo codes and those who did not. However, from October to December, it is observed that the usage of promo codes increased compared to those who did not use promo codes. Moreover, in December, it is evident that the ratio of users who used promo codes and those who did not became more balanced compared to the previous months. This indicates a change in the trend of promo code usage over time.
-
+</p>
 **Shipping Label** <br>
 Before creating the shipping label, I created a new table using the "CREATE" function in "pgAdmin4" with the table name "shipping_summary" which contains columns such as shipping_date, seller_name, buyer_name, buyer_address, buyer_city, buyer_zipcode, and kode_resi. This table will be used to create a shipping label specifically for the month of December to facilitate the shipping process, improve the quality of service, and enhance the customer experience.
 <p align="center">
