@@ -1,37 +1,40 @@
 # **Omnichannel Jubelio Promo Effectiveness Review**
 
-**Introduction**
-Jubelio merupakan platform omni channel yang menyediakan solusi bagi para peritel untuk mengelola bisnis secara online dan offline melalui berbagai marketplace yang terintegrasi dalam satu platform. Setiap akhir semester, Jubelio melakukan evaluasi efektivitas promo code terhadap total penjualan di salah satu marketplace.
+**Introduction**<br>
+Jubelio is an omnichannel platform that provides solutions for retailers to manage their businesses online and offline through various marketplaces integrated in one platform. At the end of each semester, Jubelio conducts an evaluation of the effectiveness of promo codes on total sales in one of the marketplaces.
 
-**Objective:**
-Tujuan proyek ini adalah untuk menghasilkan laporan promo effectiveness review khusus quartal ke 3 dan 4 serta shipping label khusus untuk bulan Desember.
+**Objective:**<br>
+The objective of this project is to generate a promo effectiveness review report for the third and fourth quarter, as well as a special shipping label for the month of December.
 
-Objektif spesifiknya adalah:
-1. Mengaplikasikan promo code dari tim budgeting ke dalam data penjualan.
-2. Membuat table laporan khusus quartal ke 3 dan 4 yang mencakup data penjualan dan efektivitas promo code.
-3. Melakukan summary dan visualisasi dari hasil data table quartal ke 3 dan 4 untuk mengetahui efektivitas promo code secara detail.
-4. Membuat shipping label khusus untuk bulan December agar dapat memudahkan proses pengiriman barang.
+The specific objectives of this project are:
 
-Dengan mencapai tujuan proyek ini, diharapkan dapat membantu Omnichannel Jubelio dalam meningkatkan efektivitas promosi serta memudahkan proses pengiriman barang pada bulan December.
+To apply the promo codes provided by the budgeting team into sales data.
+To create a quarterly report table for Q3 and Q4 that includes sales data and promo code effectiveness.
+To summarize and visualize the results of the Q3 and Q4 data tables to determine the promo code effectiveness in detail.
+To create a shipping label specifically for the month of December to facilitate the shipment process.
+By achieving the objectives of this project, it is expected to assist Omnichannel Jubelio in improving the effectiveness of their promotions and facilitating the shipment process in December.
 
-Repository ini berisi berkas-berkas berikut:
-- File CSV yang berisi data promo code yang digunakan selama periode promo effectiveness review
-- File CSV yang berisi data penjualan untuk quarter ke-3 dan ke-4
-- File SQL untuk melakukan analisis
-- File Excel untuk melakukan analisis dan visualisasi data
-- File PDF yang berisi laporan promo effectiveness review untuk quarter ke-3 dan ke-4
-- Template shipping label untuk bulan Desember
-Semua berkas yang dibutuhkan untuk menjalankan proyek ini tersedia di dalam repositori ini.
+This repository contains the following files:
+1. CSV file containing the promo codes data used during the promo effectiveness review period
+2. CSV file containing the sales data for the 3rd and 4th quarters
+3. SQL file for conducting data analysis
+4. Excel file for conducting data analysis and visualization
+5. PDF file containing the promo effectiveness review report for the 3rd and 4th quarters
+6. Shipping label template for the month of December
+All necessary files to run this project are available in this repository.
 
-**Data Preparation**
-1. Alat yang saya gunakan adalah "pgAdmin4", "Microsoft Excel", dan "Microsoft Word".
-2. Saya mengembalikan 5 tabel menggunakan tools "restore", dengan menggunakan data yang tersedia dalam file sql.
-3. Saya membuat tabel baru dengan nama "promo_code" dan melakukan impor data promo code dari file csv yang telah disediakan.
-4. Saya membuat tabel baru dengan nama "q3_q4_review" yang memiliki kolom-kolom seperti purchase_date, total_price, promo_code, dan sales_after_promo. Selanjutnya, saya mengisi tabel tersebut dengan data-data transaksi pada periode waktu yang ditentukan, yang telah dihitung harga jualnya setelah dipotong dengan kode promo yang digunakan.
+**Data Preparation**<br>
+1. The tools that I used were "pgAdmin4", "Microsoft Excel", and "Microsoft Word".
+2. I restored 5 tables using the "restore" function and imported the data from the provided SQL file.
+3. I created a new table named "promo_code" and imported the promo code data from the provided CSV file.
+4. I created a new table named "q3_q4_review" with columns such as purchase_date, total_price, promo_code, and sales_after_promo. Then, I populated the table with transaction data from the specified time period, with sales prices calculated after applying the promo code.
 
-**Analysis**
-**Trend Aktivitas Total Penjualan Bulanan Setelah Terpotong Promo**
-------------------------------------
+**Analysis**<br>
+**Trend Aktivitas Total Penjualan Bulanan Setelah Terpotong Promo**<br>
+<p align="center">
+    <img width="561" alt="ERD Screenshot" src="https://raw.githubusercontent.com/Rudiyanti/Omnichannel-Jubelio-Promo-Effectiveness-Review/main/sales_after_promo.png"><br>
+    Figure 1: Sales after promo
+</p>
 Gambar 1. sales after promo
 ------------------------
 Gambar 2. Chart
