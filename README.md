@@ -29,8 +29,6 @@ All necessary files to run this project are available in this repository.
 3. I created a new table named "promo_code" and imported the promo code data from the provided CSV file.
 4. I created a new table named "q3_q4_review" with columns such as purchase_date, total_price, promo_code, and sales_after_promo. Then, I populated the table with transaction data from the specified time period, with sales prices calculated after applying the promo code.
 
-**Summary**<br>
-A significant fluctuation in monthly total sales after discounts during the period of July to December 2022 highlights the importance of implementing effective marketing strategies to optimize sales. Additionally, the changing trend of promo code usage during this period can provide valuable insights to enhance the effectiveness of promotions in the future.
 **Analysis**<br>
 **Monthly Total Sales Activity Trend After Promo Discount**<br>
 <p align="center">
@@ -65,3 +63,5 @@ Before creating the shipping label, I created a new table using the "CREATE" fun
     Figure 5: Shipping Label
 </p>
 
+**Summary**<br>
+A significant fluctuation in monthly total sales after discounts during the period of July to December 2022 highlights the importance of implementing effective marketing strategies to optimize sales. Additionally, the changing trend of promo code usage during this period can provide valuable insights to enhance the effectiveness of promotions in the future.
