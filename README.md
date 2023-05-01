@@ -29,8 +29,10 @@ All necessary files to run this project are available in this repository.
 3. I created a new table named "promo_code" and imported the promo code data from the provided CSV file.
 4. I created a new table named "q3_q4_review" with columns such as purchase_date, total_price, promo_code, and sales_after_promo. Then, I populated the table with transaction data from the specified time period, with sales prices calculated after applying the promo code.
 
+**Summary**<br>
+A significant fluctuation in monthly total sales after discounts during the period of July to December 2022 highlights the importance of implementing effective marketing strategies to optimize sales. Additionally, the changing trend of promo code usage during this period can provide valuable insights to enhance the effectiveness of promotions in the future.
 **Analysis**<br>
-**Trend Aktivitas Total Penjualan Bulanan Setelah Terpotong Promo**<br>
+**Monthly Total Sales Activity Trend After Promo Discount**<br>
 <p align="center">
     <img width="561" alt="sales after promo Screenshot" src="https://raw.githubusercontent.com/Rudiyanti/Omnichannel-Jubelio-Promo-Effectiveness-Review/main/sales_after_promo.png"><br>
     Figure 1: Sales After Promo
@@ -43,7 +45,7 @@ All necessary files to run this project are available in this repository.
 Based on the given data, it can be seen that the monthly total sales after discounts show significant fluctuations during the period of July to December 2022. In July and August 2022, the total sales after discounts were relatively stable, with a range of around 166-167 million. However, in September, there was a significant decrease, with total sales after discounts amounting to 148 million. In October, there was a significant increase, with total sales after discounts reaching 193 million. However, in November, there was a decrease again, with total sales after discounts amounting to 154 million. Finally, in December, there was a very significant increase, with total sales after discounts reaching 345 million. This could be due to a large-scale event or promotion in December. Overall, the trend of monthly total sales activity after discounts shows significant fluctuations during the period of July to December 2022. However, the significant increase in sales during December could be an important point to be utilized for marketing strategies in the next period.
 
 
-**Trend Perbandingan Bulanan Jumlah Rasio Penggunaan Promo dan yang Tidak Menggunakan Promo**<br>
+**Monthly Trend of Ratio Comparison Between Promo Users and Non-Promo Users**<br>
 <p align="center">
     <img width="561" alt="ratio comparison Screenshot" src="https://raw.githubusercontent.com/Rudiyanti/Omnichannel-Jubelio-Promo-Effectiveness-Review/main/rasio_using_promo_and_non_promo.png"><br>
     Figure 3: Ratio Comparison
